@@ -17,15 +17,28 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "gatsby": "^3.1.0",
     "mongodb": "^3.5.9",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "babel": "^6.23.0",
     "chai": "^4.1.2",
     "chai-http": "^4.3.0",
     "cross-env": "^7.0.2",
+    "eslint": "^7.22.0",
     "mocha": "^8.0.1",
     "nodemon": "^2.0.4",
+    "prettier": "^2.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "serialize-javascript": ">=3.1.0"
+  },
+  "peerDependencies": {
+    "babel": "*",
+    "eslint": "*",
+    "prettier": "*",
+    "react": "*",
+    "react-dom": "*"
   }
 }
